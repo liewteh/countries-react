@@ -1,0 +1,13 @@
+.flag {
+    width: 150px;
+    height: 100px;
+}
+
+.countryContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.country, h1 {
+    margin: 30px;
+}
