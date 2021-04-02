@@ -1,10 +1,9 @@
 import React from 'react'
 
-const SearchField = () => {
+const SearchField = (props) => {
     return (
-        <div>
-            
-        </div>
+        <input type="text" placeholder="Search country" onChange={props.searchCountry}>
+        </input>
     )
 }
 
